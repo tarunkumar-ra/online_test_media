@@ -1,0 +1,306 @@
+.searchbutton {
+
+    display: flex;
+    margin-top: 86px;
+    margin-left: 17px;
+    position: absolute;
+    color: white;
+}
+
+@media  screen and  (max-width:566px) {
+
+    .searchbutton { 
+        
+                    margin-top:104px;
+                  }
+
+}
+
+.searchbutton ul {
+
+    margin-top: -26px;
+}
+
+.searchbutton ul li{
+
+    background-color: #4e4e4e;
+    float: left;
+    display: block;
+    padding-right: 25px;
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    font-size: 13px;
+    transition: all 0.1s ease;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+ .searchbutton ul li.flims {
+
+    background-color: #3f51b5;
+    transition:all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.searchbutton ul li.ser {
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton ul li.document{
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton ul li.kidss{
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton ul li.inter{
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton ul li.realityes{
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.searchbutton ul li.standsss{
+
+    background-color: #3f51b5;
+    transition: all 0.1s ease;
+    margin-left: 12px;
+    float: left;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-left: 13px;
+    margin-top: 8px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.line_shadow {
+
+    background-color:rgba(255, 255, 255, 0.2);
+    border:0px solid;
+    width: 1342%;
+    height: 1px;
+    position: absolute;
+    margin-top: 156px;
+    display: flex;
+    max-width: -webkit-fill-available;
+}
+
+@media  screen and  (max-width:566px){
+    
+    .line_shadow {
+    
+        margin-top: 185px;
+    }
+
+}
+
+.images {
+
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 75px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.formula {
+
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;
+}
+
+.moxie{
+
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;   
+}
+
+.bombay{
+
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;  
+}
+
+.comedy {
+
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;   
+}
+
+.marriage {
+  
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;   
+}
+
+.one {
+  
+    border: 1px solid orange;
+    background: orange;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    padding: 7px;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 60px;
+    cursor: pointer;
+    width: 110px;
+    position: absolute;   
+}
+

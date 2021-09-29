@@ -1,0 +1,147 @@
+.footer{
+
+    border: 1px solid rgb(22, 22, 22);
+    width: 1349px;
+    height: 280px;
+    background: rgb(22, 22, 22);
+    margin-top:0px;
+    display: flex;
+    max-width: -webkit-fill-available;
+    color:rgba(255, 255, 255, 0.9);
+    flex-direction:column;
+}
+
+
+.footer nav.comp ul li {
+
+    display: block;
+    font-size: 13px;
+    font-family: system-ui;
+    padding-top: 15px;
+}
+
+.footer nav.comp{
+
+    margin-top: 21px;
+    margin-left: 50px;
+}
+
+.footer nav.conne ul li {
+
+    display: block;
+    font-size: 13px;
+    font-family: system-ui;
+    padding-top: 11px;
+}
+
+.footer nav.conne {
+
+    margin-top: -178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer nav.lega ul li {
+
+    display: block;
+    font-size: 13px;
+    font-family: system-ui;
+    padding-top: 16px;
+}
+
+.footer nav.lega {
+
+    margin-top: -88px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 47px;
+}
+
+
+@media screen and (max-width:684px){
+
+     .footer {
+
+           height:430px;
+     }
+
+    .footer nav.conne {
+
+        margin-left: 487px;
+        margin-top: -179px;
+        flex-direction: initial;
+     }
+
+     .footer nav.lega {
+
+        margin-top: 170px;
+        margin-right: 486px;
+     }
+
+}
+
+@media  screen and  (max-width:680px){
+
+    .footer {
+
+         flex-direction:inherit;
+         height: 500px;
+     }
+
+     .footer nav.conne {
+
+        margin-left: 387px;
+        margin-top: -362px;
+        flex-direction: initial;
+     }
+
+    .footer nav.lega {
+      
+        margin-top: 377px;
+        margin-left: -543px;
+    }
+    
+}
+
+@media screen and (max-width:655px){
+ 
+    .footer {
+        height: 550px;
+    }
+     
+       .footer nav.conne {
+
+            margin-left:-92px;
+            margin-top:80px;
+       }
+
+        .footer nav.lega {
+
+            margin-top: 425px;
+            margin-left: -59px;
+       }
+
+}
+
+@media screen and (max-width:600px){
+
+    .footer {
+
+        height:600px;
+    }
+
+    .footer nav.conne{
+
+        margin-left: -92px;
+        margin-top: 55px;
+        flex-direction: inherit;
+    }
+
+    .footer nav.lega {
+
+     margin-top: 480px;
+     margin-left: -54px;
+    }
+
+}

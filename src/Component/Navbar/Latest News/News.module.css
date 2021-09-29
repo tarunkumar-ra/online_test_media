@@ -1,0 +1,105 @@
+.News {
+
+    background-color:#232323;
+    width: 1349px;
+    height: 453px;
+    position: absolute;
+    margin-top:1143px;
+    border: 0px solid;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: -webkit-fill-available;
+    justify-content: flex-start;
+}
+
+.News .container{
+
+    position: absolute;
+    margin-left: 195px;
+
+}
+
+.News h3.Heading1{
+
+    color:rgba(255, 255, 255, 0.9);
+    margin-left:44px;    
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: 700;
+    position: absolute;
+}
+
+.News  div.container div.default{
+
+    margin-top: 97px;
+    margin-left: -152px;
+}
+
+.News div.container div.default  div.def_shadow{
+
+    background: linear-gradient( 90deg , rgb(0, 0, 0) 0%, rgba(5, 5, 5, 0.67) 44.01%, rgba(15, 15, 15, 0) 100%);
+    border: 0px solid;
+    width: 361px;
+    height: 300px;
+    position: absolute;
+    margin-top: -300px
+}
+
+@media screen and ( max-width:1319px ){
+
+     .News {
+         
+             margin-top:1533px;
+           }
+}
+
+@media screen and ( max-width:1012px ){
+
+    .News {
+        
+           margin-top:1933px;
+          }
+}
+
+@media screen and ( max-width:705px){
+
+    .News{
+        
+           margin-top:3633px;
+          }
+}
+
+.News .container .Rebele img{
+
+    margin-top: -330px;
+    margin-left: 283px;
+}
+
+.News .container .define_ult img{
+
+    margin-top: -380px;
+    margin-left: 711px;
+}
+
+.News .container .Rebele .re_line_shadow{
+
+    position: absolute;
+    background: linear-gradient( 90deg , rgb(0, 0, 0) 0%, rgba(5, 5, 5, 0.67) 44.01%, rgba(15, 15, 15, 0) 100%);
+    border: 0px solid;
+    width: 357px;
+    height: 300px;
+    margin-top: -325px;
+    margin-left: 283px;    
+}
+
+.News .container .define_ult .def_line_shadow{
+
+    position: absolute;
+    background: linear-gradient( 90deg , rgb(0, 0, 0) 0%, rgba(5, 5, 5, 0.67) 44.01%, rgba(15, 15, 15, 0) 100%);
+    border: 0px solid;
+    margin-top: -350px;
+    width: 378px;
+    height: 300px;
+    margin-left: 712px; 
+}
